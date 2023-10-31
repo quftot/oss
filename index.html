@@ -1,2 +1,31 @@
-hello world
+hello world!
+
 - 오픈소스 개발자의 첫 걸음, Git/Github 시작하기
+
+# 워킹디렉터리 / 스테이지영역 / git 저장소
+
+# 설정 초기화 및 계정 설정
+$ git init .
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+
+# github에 있는 디렉토리 가져오기
+$ git remote add origin https://github.com/quftot/oss.git
+
+# 상태 확인
+$ git status
+
+# 텍스트파일 수정(vi)
+$ vi index.html
+
+# 텍스트파일 수정(vscode)
+$ code index.html
+
+# 로그 확인
+$ git log
+
+# 스테이지 영역으로 파일 추가
+$ git commit -m "hello world"
+
+# 저장소로 push
+$ git push -u origin master
